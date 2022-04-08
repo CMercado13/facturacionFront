@@ -1,0 +1,124 @@
+<p-toast></p-toast>
+<div class="p-fluid">
+  <div class="p-grid">
+    <div class="p-col-12 p-md-12 p-lg-3"></div>
+    <div class="p-col-12 p-md-12 p-lg-6">
+      <p-card
+        header="Reservar Servicio"
+        subheader="Bienvenido"
+        styleClass="p-shadow-24"
+        *ngIf="form"
+      >
+        <ng-template pTemplate="header">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15293.379498827793!2d-75.54025501365253!3d10.4120944828197!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1625207835848!5m2!1ses!2sco"
+            height="200"
+            style="border: 0; width: 100% !important"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </ng-template>
+        <form [formGroup]="form" (ngSubmit)="procesar()">
+          <div class="p-field p-col-12 p-md-12 p-lg-12 Padding0">
+            <div class="p-inputgroup">
+              <span class="p-inputgroup-addon"><i class="pi pi-user"></i></span>
+              <input
+                type="text"
+                pInputText
+                formControlName="nombre"
+                placeholder="Nombre"
+              />
+            </div>
+          </div>
+          <div class="p-field p-col-12 p-md-12 p-lg-12 Padding0">
+            <div class="p-inputgroup">
+              <span class="p-inputgroup-addon">@</span>
+              <input
+                type="text"
+                pInputText
+                formControlName="correo"
+                placeholder="Correo"
+              />
+            </div>
+          </div>
+          <div class="p-field p-col-12 p-md-12 p-lg-12 Padding0">
+            <div class="p-inputgroup">
+              <span class="p-inputgroup-addon"
+                ><i class="pi pi-phone"></i
+              ></span>
+              <input
+                type="text"
+                pInputText
+                formControlName="telefono"
+                pKeyFilter="int"
+                placeholder="Teléfono"
+              />
+            </div>
+          </div>
+          <div class="p-field p-col-12 p-md-12 p-lg-12 Padding0">
+            <div class="p-inputgroup">
+              <span class="p-inputgroup-addon"
+                ><i class="pi pi-reply"></i
+              ></span>
+              <input
+                type="text"
+                pInputText
+                formControlName="direccion"
+                placeholder="Dirección"
+              />
+            </div>
+          </div>
+          <div class="p-field p-col-12 p-md-12 p-lg-12 Padding0">
+            <p-dropdown
+              id="desde"
+              [options]="barrios"
+              [filter]="true"
+              filterBy="barrio"
+              formControlName="desde"
+              placeholder="Desde"
+              [showClear]="true"
+              optionLabel="barrio"
+              (onChange)="selectBarrio($event)"
+            ></p-dropdown>
+          </div>
+          <div class="p-field p-col-12 p-md-12 p-lg-12 Padding0">
+            <p-dropdown
+              id="hasta"
+              [filter]="true"
+              filterBy="barrio"
+              [showClear]="true"
+              placeholder="Hasta"
+              [options]="barriosHasta"
+              formControlName="hasta"
+              optionLabel="barrio"
+              (onChange)="selectBarrioHasta()"
+            ></p-dropdown>
+          </div>
+          <div class="p-col-4 p-offset-8">
+            Valor: {{ form.controls.valor.value }}
+          </div>
+          <button
+            #btnProcesar
+            id="btnGuardar"
+            style="visibility: hidden"
+            type="submit"
+          ></button>
+        </form>
+        <ng-template pTemplate="footer">
+          <button
+            pButton
+            pRipple
+            type="button"
+            (click)="isSubmit()"
+            label="Reservar"
+            [disabled]="form.invalid"
+            icon="pi pi-check"
+            style="width: 8rem"
+            class="p-mb-2"
+          ></button>
+        </ng-template>
+      </p-card>
+    </div>
+    <div class="p-col-12 p-md-12 p-lg-3"></div>
+  </div>
+</div>

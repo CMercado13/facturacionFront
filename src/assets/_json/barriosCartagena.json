@@ -1,0 +1,806 @@
+[
+  {
+    "idBarrio": 1,
+    "barrio": "Bocagrande"
+  },
+  {
+    "idBarrio": 2,
+    "barrio": "Castillogrande"
+  },
+  {
+    "idBarrio": 3,
+    "barrio": "Centro"
+  },
+  {
+    "idBarrio": 4,
+    "barrio": "Chambacu"
+  },
+  {
+    "idBarrio": 5,
+    "barrio": "Crespo"
+  },
+  {
+    "idBarrio": 6,
+    "barrio": "El Cabrero"
+  },
+  {
+    "idBarrio": 7,
+    "barrio": "El Laguito"
+  },
+  {
+    "idBarrio": 8,
+    "barrio": "Getsemani"
+  },
+  {
+    "idBarrio": 9,
+    "barrio": "La Matuna"
+  },
+  {
+    "idBarrio": 10,
+    "barrio": "Manga"
+  },
+  {
+    "idBarrio": 11,
+    "barrio": "Marbella"
+  },
+  {
+    "idBarrio": 12,
+    "barrio": "Pie De La Popa"
+  },
+  {
+    "idBarrio": 13,
+    "barrio": "San Diego"
+  },
+  {
+    "idBarrio": 14,
+    "barrio": "Cerro De La Popa"
+  },
+  {
+    "idBarrio": 15,
+    "barrio": "Espinal"
+  },
+  {
+    "idBarrio": 16,
+    "barrio": "La Paz"
+  },
+  {
+    "idBarrio": 17,
+    "barrio": "Loma Fresca"
+  },
+  {
+    "idBarrio": 18,
+    "barrio": "Los Comuneros"
+  },
+  {
+    "idBarrio": 19,
+    "barrio": "Narino"
+  },
+  {
+    "idBarrio": 20,
+    "barrio": "Pablo VI  I"
+  },
+  {
+    "idBarrio": 21,
+    "barrio": "Pablo VI II"
+  },
+  {
+    "idBarrio": 22,
+    "barrio": "Palestina"
+  },
+  {
+    "idBarrio": 23,
+    "barrio": "Paraiso Ii"
+  },
+  {
+    "idBarrio": 24,
+    "barrio": "Pedro Salazar"
+  },
+  {
+    "idBarrio": 25,
+    "barrio": "Petare"
+  },
+  {
+    "idBarrio": 26,
+    "barrio": "Pie Del Cerro"
+  },
+  {
+    "idBarrio": 27,
+    "barrio": "Republica del Caribe"
+  },
+  {
+    "idBarrio": 28,
+    "barrio": "San Pedro y Libertad"
+  },
+  {
+    "idBarrio": 29,
+    "barrio": "Torices"
+  },
+  {
+    "idBarrio": 30,
+    "barrio": "Lo Amador"
+  },
+  {
+    "idBarrio": 31,
+    "barrio": "Canapote"
+  },
+  {
+    "idBarrio": 32,
+    "barrio": "Daniel Lemaitre"
+  },
+  {
+    "idBarrio": 33,
+    "barrio": "San Bernardo"
+  },
+  {
+    "idBarrio": 34,
+    "barrio": "San Francisco"
+  },
+  {
+    "idBarrio": 35,
+    "barrio": "Santa Maria"
+  },
+  {
+    "idBarrio": 36,
+    "barrio": "Siete de agosto"
+  },
+  {
+    "idBarrio": 37,
+    "barrio": "Buenos Aires"
+  },
+  {
+    "idBarrio": 38,
+    "barrio": "Calamares"
+  },
+  {
+    "idBarrio": 39,
+    "barrio": "Camaguey"
+  },
+  {
+    "idBarrio": 40,
+    "barrio": "El Carmen"
+  },
+  {
+    "idBarrio": 41,
+    "barrio": "El Country"
+  },
+  {
+    "idBarrio": 42,
+    "barrio": "Escallon Villa"
+  },
+  {
+    "idBarrio": 43,
+    "barrio": "La Campina"
+  },
+  {
+    "idBarrio": 44,
+    "barrio": "La Troncal"
+  },
+  {
+    "idBarrio": 45,
+    "barrio": "Las Delicias"
+  },
+  {
+    "idBarrio": 46,
+    "barrio": "Los Angeles"
+  },
+  {
+    "idBarrio": 47,
+    "barrio": "Los Ejecutivos"
+  },
+  {
+    "idBarrio": 48,
+    "barrio": "Rubi"
+  },
+  {
+    "idBarrio": 49,
+    "barrio": "Tacarigua"
+  },
+  {
+    "idBarrio": 50,
+    "barrio": "Villa Sandra"
+  },
+  {
+    "idBarrio": 51,
+    "barrio": "Zaragocilla"
+  },
+  {
+    "idBarrio": 52,
+    "barrio": "Amberes"
+  },
+  {
+    "idBarrio": 53,
+    "barrio": "Armenia"
+  },
+  {
+    "idBarrio": 54,
+    "barrio": "Barrio Chino"
+  },
+  {
+    "idBarrio": 55,
+    "barrio": "Bruselas"
+  },
+  {
+    "idBarrio": 56,
+    "barrio": "El Prado"
+  },
+  {
+    "idBarrio": 57,
+    "barrio": "Espana"
+  },
+  {
+    "idBarrio": 58,
+    "barrio": "Jose Antonio Galan"
+  },
+  {
+    "idBarrio": 59,
+    "barrio": "Juan XXIII"
+  },
+  {
+    "idBarrio": 60,
+    "barrio": "Junin"
+  },
+  {
+    "idBarrio": 61,
+    "barrio": "Las Brisas"
+  },
+  {
+    "idBarrio": 62,
+    "barrio": "Martinez Martelo"
+  },
+  {
+    "idBarrio": 63,
+    "barrio": "Nueva Granada"
+  },
+  {
+    "idBarrio": 64,
+    "barrio": "Nueve de Abril"
+  },
+  {
+    "idBarrio": 65,
+    "barrio": "Paraguay"
+  },
+  {
+    "idBarrio": 66,
+    "barrio": "Piedra De Bolivar"
+  },
+  {
+    "idBarrio": 67,
+    "barrio": "Alto Bosque"
+  },
+  {
+    "idBarrio": 68,
+    "barrio": "Altos De San Isidro"
+  },
+  {
+    "idBarrio": 69,
+    "barrio": "Bosquecito"
+  },
+  {
+    "idBarrio": 70,
+    "barrio": "El Bosque"
+  },
+  {
+    "idBarrio": 71,
+    "barrio": "Santana"
+  },
+  {
+    "idBarrio": 72,
+    "barrio": "Ararca"
+  },
+  {
+    "idBarrio": 73,
+    "barrio": "Baru"
+  },
+  {
+    "idBarrio": 74,
+    "barrio": "Bocachica"
+  },
+  {
+    "idBarrio": 75,
+    "barrio": "Cano Del Oro"
+  },
+  {
+    "idBarrio": 76,
+    "barrio": "Tierra Bomba"
+  },
+  {
+    "idBarrio": 77,
+    "barrio": "Los Cerros"
+  },
+  {
+    "idBarrio": 78,
+    "barrio": "Nuevo Bosque"
+  },
+  {
+    "idBarrio": 79,
+    "barrio": "Republica de Chile"
+  },
+  {
+    "idBarrio": 80,
+    "barrio": "San Isidro"
+  },
+  {
+    "idBarrio": 81,
+    "barrio": "Archipielago San Bernardo"
+  },
+  {
+    "idBarrio": 82,
+    "barrio": "Islas Del Rosario"
+  },
+  {
+    "idBarrio": 83,
+    "barrio": "Punta Arenas"
+  },
+  {
+    "idBarrio": 84,
+    "barrio": "Isla Fuerte"
+  },
+  {
+    "idBarrio": 85,
+    "barrio": "Alcibia"
+  },
+  {
+    "idBarrio": 86,
+    "barrio": "Boston"
+  },
+  {
+    "idBarrio": 87,
+    "barrio": "La Candelaria"
+  },
+  {
+    "idBarrio": 88,
+    "barrio": "La Esperanza"
+  },
+  {
+    "idBarrio": 89,
+    "barrio": "La Maria"
+  },
+  {
+    "idBarrio": 90,
+    "barrio": "La Quinta"
+  },
+  {
+    "idBarrio": 91,
+    "barrio": "Olaya St Central"
+  },
+  {
+    "idBarrio": 92,
+    "barrio": "Olaya St Rafael Unnez"
+  },
+  {
+    "idBarrio": 93,
+    "barrio": "Olaya St Ricaurte"
+  },
+  {
+    "idBarrio": 94,
+    "barrio": "Olaya St11 De Noviembre"
+  },
+  {
+    "idBarrio": 95,
+    "barrio": "Olaya Villa Olimpica"
+  },
+  {
+    "idBarrio": 96,
+    "barrio": "Republica Del Libano"
+  },
+  {
+    "idBarrio": 97,
+    "barrio": "El Pozon"
+  },
+  {
+    "idBarrio": 98,
+    "barrio": "Fredonia"
+  },
+  {
+    "idBarrio": 99,
+    "barrio": "Flor Del Campo"
+  },
+  {
+    "idBarrio": 100,
+    "barrio": "La India"
+  },
+  {
+    "idBarrio": 101,
+    "barrio": "Nuevo Paraiso"
+  },
+  {
+    "idBarrio": 102,
+    "barrio": "Olaya St La Magdalena"
+  },
+  {
+    "idBarrio": 103,
+    "barrio": "Olaya St Stella"
+  },
+  {
+    "idBarrio": 104,
+    "barrio": "Olaya St Zaraband"
+  },
+  {
+    "idBarrio": 105,
+    "barrio": "Urbanizacion Colombiaton"
+  },
+  {
+    "idBarrio": 106,
+    "barrio": "Villa Estrella"
+  },
+  {
+    "idBarrio": 107,
+    "barrio": "Olaya St La Puntilla"
+  },
+  {
+    "idBarrio": 108,
+    "barrio": "Olaya St Playa Blanca"
+  },
+  {
+    "idBarrio": 109,
+    "barrio": "Olaya St Progreso"
+  },
+  {
+    "idBarrio": 110,
+    "barrio": "Chapacua"
+  },
+  {
+    "idBarrio": 111,
+    "barrio": "Chipre"
+  },
+  {
+    "idBarrio": 112,
+    "barrio": "El Gallo"
+  },
+  {
+    "idBarrio": 113,
+    "barrio": "La Castellana"
+  },
+  {
+    "idBarrio": 114,
+    "barrio": "La Floresta"
+  },
+  {
+    "idBarrio": 115,
+    "barrio": "Las Gaviotas"
+  },
+  {
+    "idBarrio": 116,
+    "barrio": "Las Palmeras"
+  },
+  {
+    "idBarrio": 117,
+    "barrio": "Los Alpes"
+  },
+  {
+    "idBarrio": 118,
+    "barrio": "Nuevo Porvenir"
+  },
+  {
+    "idBarrio": 119,
+    "barrio": "Republica de Venezuela"
+  },
+  {
+    "idBarrio": 120,
+    "barrio": "San Antonio"
+  },
+  {
+    "idBarrio": 121,
+    "barrio": "San Jose Obrero"
+  },
+  {
+    "idBarrio": 122,
+    "barrio": "Trece de Junio"
+  },
+  {
+    "idBarrio": 123,
+    "barrio": "Viejo Porvenir"
+  },
+  {
+    "idBarrio": 124,
+    "barrio": "Las Europas"
+  },
+  {
+    "idBarrio": 125,
+    "barrio": "Arroyo De Las Canoas"
+  },
+  {
+    "idBarrio": 126,
+    "barrio": "Arroyo De Piedra"
+  },
+  {
+    "idBarrio": 127,
+    "barrio": "Punta Canoa"
+  },
+  {
+    "idBarrio": 128,
+    "barrio": "Pontezuela"
+  },
+  {
+    "idBarrio": 129,
+    "barrio": "Manzanillo Del Mar"
+  },
+  {
+    "idBarrio": 130,
+    "barrio": "Puerto Rey"
+  },
+  {
+    "idBarrio": 131,
+    "barrio": "Tierra Baja"
+  },
+  {
+    "idBarrio": 132,
+    "barrio": "La Boquilla"
+  },
+  {
+    "idBarrio": 133,
+    "barrio": "Bayunca"
+  },
+  {
+    "idBarrio": 134,
+    "barrio": "Albornoz"
+  },
+  {
+    "idBarrio": 135,
+    "barrio": "Antonio Jose de Sucre"
+  },
+  {
+    "idBarrio": 136,
+    "barrio": "Arroz Barato"
+  },
+  {
+    "idBarrio": 137,
+    "barrio": "Bellavista"
+  },
+  {
+    "idBarrio": 138,
+    "barrio": "Ceballos"
+  },
+  {
+    "idBarrio": 139,
+    "barrio": "El Libertador"
+  },
+  {
+    "idBarrio": 140,
+    "barrio": "Policarpa"
+  },
+  {
+    "idBarrio": 141,
+    "barrio": "Puerta De Hierro"
+  },
+  {
+    "idBarrio": 142,
+    "barrio": "Santa Clara"
+  },
+  {
+    "idBarrio": 143,
+    "barrio": "20 de Julio Sur"
+  },
+  {
+    "idBarrio": 144,
+    "barrio": "Villa Barraza"
+  },
+  {
+    "idBarrio": 145,
+    "barrio": "Villa Rosa"
+  },
+  {
+    "idBarrio": 146,
+    "barrio": "Almirante Colon"
+  },
+  {
+    "idBarrio": 147,
+    "barrio": "Blas De Lezo"
+  },
+  {
+    "idBarrio": 148,
+    "barrio": "El Campestre"
+  },
+  {
+    "idBarrio": 149,
+    "barrio": "El Carmelo"
+  },
+  {
+    "idBarrio": 150,
+    "barrio": "El Milagro"
+  },
+  {
+    "idBarrio": 151,
+    "barrio": "El Socorro"
+  },
+  {
+    "idBarrio": 152,
+    "barrio": "La Central"
+  },
+  {
+    "idBarrio": 153,
+    "barrio": "Los Caracoles"
+  },
+  {
+    "idBarrio": 154,
+    "barrio": "Los Corales"
+  },
+  {
+    "idBarrio": 155,
+    "barrio": "San Pedro"
+  },
+  {
+    "idBarrio": 156,
+    "barrio": "Santa Monica"
+  },
+  {
+    "idBarrio": 157,
+    "barrio": "Anita"
+  },
+  {
+    "idBarrio": 158,
+    "barrio": "El Recreo"
+  },
+  {
+    "idBarrio": 159,
+    "barrio": "La Concepcion"
+  },
+  {
+    "idBarrio": 160,
+    "barrio": "Providencia"
+  },
+  {
+    "idBarrio": 161,
+    "barrio": "San Jose de los Campanos"
+  },
+  {
+    "idBarrio": 162,
+    "barrio": "Santa Lucia"
+  },
+  {
+    "idBarrio": 163,
+    "barrio": "Ternera"
+  },
+  {
+    "idBarrio": 164,
+    "barrio": "Villa Rosita"
+  },
+  {
+    "idBarrio": 165,
+    "barrio": "Alameda La Victoria"
+  },
+  {
+    "idBarrio": 166,
+    "barrio": "Camilo Torres"
+  },
+  {
+    "idBarrio": 167,
+    "barrio": "Cesar Florez"
+  },
+  {
+    "idBarrio": 168,
+    "barrio": "Ciudadela 11 de Nov"
+  },
+  {
+    "idBarrio": 169,
+    "barrio": "Ciudadela 2000"
+  },
+  {
+    "idBarrio": 170,
+    "barrio": "Jorge Eliecer Gaitan"
+  },
+  {
+    "idBarrio": 171,
+    "barrio": "La Esmeralda I"
+  },
+  {
+    "idBarrio": 172,
+    "barrio": "La Florida"
+  },
+  {
+    "idBarrio": 173,
+    "barrio": "La Sierrita"
+  },
+  {
+    "idBarrio": 174,
+    "barrio": "Los Santanderes"
+  },
+  {
+    "idBarrio": 175,
+    "barrio": "Maria Cano"
+  },
+  {
+    "idBarrio": 176,
+    "barrio": "Nazareno"
+  },
+  {
+    "idBarrio": 177,
+    "barrio": "Nelson Mandela"
+  },
+  {
+    "idBarrio": 178,
+    "barrio": "Nueva Delhi"
+  },
+  {
+    "idBarrio": 179,
+    "barrio": "� El Educador"
+  },
+  {
+    "idBarrio": 180,
+    "barrio": "El Reposo"
+  },
+  {
+    "idBarrio": 181,
+    "barrio": "Henequen"
+  },
+  {
+    "idBarrio": 182,
+    "barrio": "Jaime Pardo Leal"
+  },
+  {
+    "idBarrio": 183,
+    "barrio": "La Consolata"
+  },
+  {
+    "idBarrio": 184,
+    "barrio": "La Victoria"
+  },
+  {
+    "idBarrio": 185,
+    "barrio": "Los Jardines"
+  },
+  {
+    "idBarrio": 186,
+    "barrio": "Luis Carlos Galan"
+  },
+  {
+    "idBarrio": 187,
+    "barrio": "Manuela Vergara De Curi"
+  },
+  {
+    "idBarrio": 188,
+    "barrio": "San Pedro Martir"
+  },
+  {
+    "idBarrio": 189,
+    "barrio": "Vista Hermosa"
+  },
+  {
+    "idBarrio": 190,
+    "barrio": "La Esmeralda II"
+  },
+  {
+    "idBarrio": 191,
+    "barrio": "San Fernando"
+  },
+  {
+    "idBarrio": 192,
+    "barrio": "Sectores Unidos"
+  },
+  {
+    "idBarrio": 193,
+    "barrio": "Urbanizacion Simon Bolivar"
+  },
+  {
+    "idBarrio": 194,
+    "barrio": "Nueva Jerusalen"
+  },
+  {
+    "idBarrio": 195,
+    "barrio": "Rossedal"
+  },
+  {
+    "idBarrio": 196,
+    "barrio": "Villa Fanny"
+  },
+  {
+    "idBarrio": 197,
+    "barrio": "Villa Hermosa"
+  },
+  {
+    "idBarrio": 198,
+    "barrio": "Villa Rubia"
+  },
+  {
+    "idBarrio": 199,
+    "barrio": "Pasacaballos"
+  },
+  {
+    "idBarrio": 200,
+    "barrio": "Recreo"
+  },
+  {
+    "idBarrio": 201,
+    "barrio": "Membrillal"
+  }
+]

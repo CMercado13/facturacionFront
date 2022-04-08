@@ -1,0 +1,177 @@
+<p-toast></p-toast>
+<p-dialog
+  header="{{ edicion ? 'Editar' : 'Nuevo' }} Factura"
+  [(visible)]="view"
+  [modal]="true"
+  position="top"
+  [responsive]="true"
+  [baseZIndex]="10000"
+  showEffect="fade"
+  [modal]="true"
+  appendTo="body"
+  (onHide)="onClose()"
+  styleClass="p-fluid mr1024_30 mr500_90"
+>
+  <br />
+  <form [formGroup]="form" (ngSubmit)="procesar()">
+    <div class="p-grid">
+      <div class="p-field p-col-12 p-md-12 p-lg-12">
+        <span class="p-float-label">
+          <p-calendar
+            id="fecha"
+            formControlName="fecha"
+            dateFormat="yy-mm-dd"
+            [touchUI]="true"
+            [style]="{ width: '100%' }"
+            [showIcon]="true"
+            [readonlyInput]="true"
+            [monthNavigator]="true"
+          ></p-calendar>
+          <label for="fecha">Desde</label>
+        </span>
+      </div>
+      <div class="p-field p-col-12 p-md-12 p-lg-6">
+        <label for="dni">Identifiación</label>
+        <input
+          id="dni"
+          [style]="{ width: '100%' }"
+          type="text"
+          maxlength="50"
+          formControlName="dni_cliente"
+          pInputText
+          autocomplete="off"
+          required
+        />
+      </div>
+      <div class="p-field p-col-12 p-md-12 p-lg-6">
+        <label for="dni">Nombre Cliente</label>
+        <input
+          id="nombre"
+          [style]="{ width: '100%' }"
+          type="text"
+          maxlength="50"
+          formControlName="nombre_cliente"
+          pInputText
+          autocomplete="off"
+          required
+        />
+      </div>
+      <div class="p-field p-col-12 p-md-6 p-lg-6">
+        <label for="tipo">Tipo Pago</label>
+        <p-dropdown
+          [options]="tiposPago"
+          [showClear]="true"
+          optionLabel="name"
+          optionValue="value"
+          placeholder="Seleccione tipo"
+          filterMatchMode="contains"
+          [style]="{ width: '100%' }"
+          formControlName="tipo_pago"
+          id="tipoPago"
+        ></p-dropdown>
+      </div>
+      <div class="p-field p-col-12 p-md-6 p-lg-6">
+        <label for="minmax-buttons">Descuento</label>
+        <p-inputNumber
+          formControlName="descuento"
+          mode="decimal"
+          [showButtons]="true"
+          inputId="descuento"
+          [min]="0"
+          [max]="100"
+        >
+        </p-inputNumber>
+      </div>
+    </div>
+    <button
+      #btnProcesar
+      id="btnGuardar"
+      style="visibility: hidden"
+      state="submit"
+    ></button>
+  </form>
+  <div class="p-grid">
+    <div class="p-field p-col-12 p-md-6 p-lg-6">
+      <label for="productos">Producto</label>
+      <p-dropdown
+        [options]="productos"
+        [showClear]="true"
+        optionLabel="producto"
+        placeholder="Seleccione tipo"
+        filterMatchMode="contains"
+        [style]="{ width: '100%' }"
+        [(ngModel)]="detalleDTO.producto"
+        id="productos"
+      ></p-dropdown>
+    </div>
+    <div class="p-field p-col-12 p-md-6 p-lg-3">
+      <label for="cantidad">Cantidad</label>
+      <p-inputNumber
+        [(ngModel)]="detalleDTO.cantidad_producto"
+        mode="decimal"
+        [showButtons]="true"
+        inputId="cantidad"
+        [min]="0"
+      >
+      </p-inputNumber>
+    </div>
+    <div class="p-field p-col-12 p-md-6 p-lg-3">
+      <label for="precio">Precio Unitario</label>
+      <p-inputNumber
+        [(ngModel)]="detalleDTO.precio_unitario"
+        mode="decimal"
+        [showButtons]="true"
+        inputId="precio"
+        [min]="0"
+      >
+      </p-inputNumber>
+    </div>
+    <p-table
+      [value]="detallesDTO"
+      dataKey="producto.id"
+      responsiveLayout="scroll"
+    >
+      <ng-template pTemplate="caption">
+        <div class="p-d-flex p-jc-between">
+          Productos Seleccionados
+          <p-button
+            label="Agregar Producto"
+            icon="pi pi-plus"
+            (click)="agregarProducto()"
+            iconPos="right"
+          ></p-button>
+        </div>
+      </ng-template>
+      <ng-template pTemplate="header">
+        <tr>
+          <th>Nombre</th>
+          <th>Cantidad</th>
+          <th>Precio</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-dto>
+        <tr>
+          <td>{{ dto.producto.producto }}</td>
+          <td>{{ dto.cantidad_producto }}</td>
+          <td>{{ dto.precio_unitario | currency: "USD" }}</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+  <ng-template pTemplate="footer">
+    <button
+      pButton
+      pRipple
+      label="Cancelar"
+      icon="pi pi-times"
+      class="p-button-danger"
+      (click)="onClose()"
+    ></button>
+    <p-button
+      (click)="isSubmit()"
+      [disabled]="form.invalid"
+      label="{{ edicion ? 'Actualizar' : 'Guardar' }}"
+      icon="pi pi-check"
+    ></p-button>
+  </ng-template>
+</p-dialog>
